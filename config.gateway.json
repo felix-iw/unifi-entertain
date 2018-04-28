@@ -1,0 +1,26 @@
+{
+  "protocols": {
+    "igmp-proxy": {
+      "interface": {
+        "pppoe2": {
+          "alt-subnet": [
+            "0.0.0.0/0"
+          ],
+          "role": "upstream",
+          "threshold": "1"
+        },
+        "eth1": {
+          "alt-subnet": [
+            "0.0.0.0/0"
+          ],
+          "role": "downstream",
+          "threshold": "1",
+          "whitelist": [
+            "239.35.0.0/16",
+            "232.0.0.0/16"
+          ]
+        }
+      }
+    }
+  }
+}
