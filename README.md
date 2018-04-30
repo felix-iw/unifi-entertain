@@ -3,6 +3,8 @@
 Docker image with the latest stable version of the UniFi controller software.
 It contains additional configuration to support Deutsche Telekom Entertain (T-Entertain).
 
+Note: currently the only supported site is the default one (name 'default').
+
 ## pppoe - Interface
 
 The configuration file contains the settings for the UniFi Security Gateway.
