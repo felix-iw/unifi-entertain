@@ -1,5 +1,5 @@
 # Set the latest stable version of jacoalberties unifi image
-FROM jacobalberty/unifi:5.8
+FROM jacobalberty/unifi:latest
 # Dockerfile author / maintainer
 MAINTAINER Name <felix.ritter@gmail.com>
 COPY config.gateway.json /unifi/data/sites/default/
