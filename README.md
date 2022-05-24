@@ -17,3 +17,7 @@ For further information on how to set up the USG for T-Entertain see https://sch
 
 This image is based on jacobalberty/unifi:stable.
 For documentation and details see https://hub.docker.com/r/jacobalberty/unifi/ .
+
+## Multi platform build
+
+docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t felixritter/unifi-entertain:latest --push .
